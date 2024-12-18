@@ -36,9 +36,6 @@ easyocr, pandas, streamlit, streamlit_option_menu, mysql.connector, Pillow, re, 
 
 <!-- PROCEDURE -->
 ### PROCEDURE:
-* #### __STEP 1:__ Clone the repository from GitHub:
-     git clone <repository_url>
-     cd BizCardX
 
 * #### __STEP 2:__ Install the required Python packages:
      pip install streamlit easyocr mysql-connector-python pandas opencv-python 
@@ -48,25 +45,17 @@ easyocr, pandas, streamlit, streamlit_option_menu, mysql.connector, Pillow, re, 
 * #### __STEP 3:__ Set up the MySQL database:
     Create a database named bizcardx_data.
     Run the SQL commands in the app to create the required table structure.
-  
-* #### __STEP 4:__ Ensure the required assets (like icons) are placed in the specified directories.
-  
-* #### __STEP 5:__ Run the Application: Start the Streamlit server by running:
-    streamlit run BizcardX.py
 
 * #### __STEP 6:__ Navigate the Application:
     • Upload Card: Upload a business card image. The application extracts and 
     displays the data for review and correction. Save the data to the database by clicking "Upload to SQL."
-• View Cards: View a table of saved business cards.
-• Update Card: Select an entry to update and modify the fields as needed. Click "Update Card" to save changes.
-• Delete Card: Select an entry to delete and confirm the action.
-
-* #### __STEP 7:__ Background Settings:
-The app features a visually appealing background, dynamically applied through Streamlit's Markdown support.
+    • View Cards: View a table of saved business cards.
+    • Update Card: Select an entry to update and modify the fields as needed. Click "Update Card" to save changes.
+    • Delete Card: Select an entry to delete and confirm the action.
 
 * #### __STEP 8:__ Database Management:
-• Each business card's data is stored in a MySQL table.
-• The app supports CRUD (Create, Read, Update, Delete) operations.
+    • Each business card's data is stored in a MySQL table.
+    • The app supports CRUD (Create, Read, Update, Delete) operations.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
