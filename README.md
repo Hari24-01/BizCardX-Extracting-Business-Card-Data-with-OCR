@@ -39,7 +39,7 @@ easyocr, pandas, streamlit, streamlit_option_menu, mysql.connector, Pillow, re, 
 
 
 - **__STEP 1:__ Install the required Python packages:**
-     pip install streamlit easyocr mysql-connector-python pandas opencv-python 
+   + pip install streamlit easyocr mysql-connector-python pandas opencv-python 
      pillow 
      streamlit-option-menu
   
