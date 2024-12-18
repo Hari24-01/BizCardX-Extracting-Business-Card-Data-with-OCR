@@ -36,21 +36,35 @@ easyocr, pandas, streamlit, streamlit_option_menu, mysql.connector, Pillow, re, 
 
 <!-- PROCEDURE -->
 ### PROCEDURE:
-* #### __STEP 1:__ Application Setup:
-   Create an intuitive UI in Streamlit with widgets such as file uploaders, buttons, and text boxes to guide users through uploading a business card image, organize and present the         extracted data (company name, cardholder name, etc.) in the Streamlit GUI using tables or text boxes.
+* #### __STEP 1:__ Clone the repository from GitHub:
+git clone <repository_url>
+cd BizCardX
 
-* #### __STEP 2:__ Database Connection:
-  Create a table bizcardx (if not already present) to store extracted information, Use SQLite or MySQL to store the extracted information and uploaded business card images.
+* #### __STEP 2:__ Install the required Python packages:
+pip install streamlit easyocr mysql-connector-python pandas opencv-python pillow streamlit-option-menu
   
-* #### __STEP 3:__ View Cards Page:
-  Users can view all saved business card data in a tabular format using Pandas DataFrame in Streamlit.
+* #### __STEP 3:__ Set up the MySQL database:
+Create a database named bizcardx_data.
+Run the SQL commands in the app to create the required table structure.
   
-* #### __STEP 4:__ Update Card Page:
-  Editable fields are displayed, allowing users to make changes to the select a card from the list (identified by ID, holder name, and company name) to update its details.
+* #### __STEP 4:__ Ensure the required assets (like icons) are placed in the specified directories.
   
-* #### __STEP 5:__ Delete Card Page:
-  Upon confirmation, the selected record the Users can delete the card from the database.
-  
+* #### __STEP 5:__ Run the Application: Start the Streamlit server by running:
+streamlit run BizcardX.py
+
+* #### __STEP 6:__ Navigate the Application:
+• Upload Card: Upload a business card image. The application extracts and displays the data for review and correction. Save the data to the database by clicking "Upload to SQL."
+• View Cards: View a table of saved business cards.
+• Update Card: Select an entry to update and modify the fields as needed. Click "Update Card" to save changes.
+• Delete Card: Select an entry to delete and confirm the action.
+
+* #### __STEP 7:__ Background Settings:
+The app features a visually appealing background, dynamically applied through Streamlit's Markdown support.
+
+* #### __STEP 8:__ Database Management:
+• Each business card's data is stored in a MySQL table.
+• The app supports CRUD (Create, Read, Update, Delete) operations.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- OUTPUT -->
