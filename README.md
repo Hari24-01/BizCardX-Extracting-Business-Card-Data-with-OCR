@@ -1,5 +1,5 @@
 <a name="readme-top"></a>
-#   __BizCardX Extracting Business Card Data with OCR__
+#   __BizCardX: Business Card Information Extractor__
 
 <!-- TABLE OF CONTENTS -->
 <details>
