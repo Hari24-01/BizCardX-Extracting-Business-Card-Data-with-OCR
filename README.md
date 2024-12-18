@@ -37,7 +37,7 @@ easyocr, pandas, streamlit, streamlit_option_menu, mysql.connector, Pillow, re, 
 <!-- PROCEDURE -->
 ### PROCEDURE:
 * #### __STEP 1:__ Application Setup:
-   Create an intuitive UI in Streamlit with widgets such as file uploaders, buttons, and text boxes to guide users through uploading a business card image,Organize and present the         extracted data (company name, cardholder name, etc.) in the Streamlit GUI using tables or text boxes.
+   Create an intuitive UI in Streamlit with widgets such as file uploaders, buttons, and text boxes to guide users through uploading a business card image, organize and present the         extracted data (company name, cardholder name, etc.) in the Streamlit GUI using tables or text boxes.
 
 * #### __STEP 2:__ Database Connection:
   Create a table bizcardx (if not already present) to store extracted information, Use SQLite or MySQL to store the extracted information and uploaded business card images.
