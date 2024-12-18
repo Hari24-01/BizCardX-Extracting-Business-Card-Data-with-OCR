@@ -27,12 +27,12 @@ The aim of the project is to develop a Streamlit application that permits users 
 * [PYTHON](https://www.python.org/)
 * [XAMPP SQL](https://www.apachefriends.org/index.html)
 * [STREAMLIT](https://streamlit.io/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
   
 <!-- LIBRARY USED -->
 ### LIBRARY USED:
 easyocr, pandas, streamlit, streamlit_option_menu, mysql.connector, Pillow, re, cv2, numpy.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- PROCEDURE -->
 ### PROCEDURE:
@@ -47,11 +47,10 @@ easyocr, pandas, streamlit, streamlit_option_menu, mysql.connector, Pillow, re, 
 * #### __STEP 4:__ Setting up a Streamlit app:
   Utilising [Python](https://www.python.org/) libraries Using [Streamlit](https://docs.streamlit.io/) and [Plotly](https://plotly.com/python/), an interactive dashboard is developed with [geo-map](https://plotly.com/python/maps/) functionalities and a user-friendly 
   interface with many drop-down options.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 * #### __STEP 5:__ Display data in the Streamlit app:
   The obtained data is shown within the [Streamlit](https://docs.streamlit.io/) application, where it is used to build charts, graphs and Map for user analysis.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- OUTPUT -->
 ### OUTPUT:
