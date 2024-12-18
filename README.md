@@ -38,23 +38,23 @@ easyocr, pandas, streamlit, streamlit_option_menu, mysql.connector, Pillow, re, 
 ### PROCEDURE:
 
 
-- ** ###__STEP 1:__ Install the required Python packages:**
+- **__STEP 1:__ Install the required Python packages:**
      pip install streamlit easyocr mysql-connector-python pandas opencv-python 
      pillow 
      streamlit-option-menu
   
-- ** #### __STEP 2:__ Set up the MySQL database:**
+- **__STEP 2:__ Set up the MySQL database:**
     - Create a database named bizcardx_data.
     - Run the SQL commands in the app to create the required table structure.
 
-- ** #### __STEP 3:__ Navigate the Application:**
+- **__STEP 3:__ Navigate the Application:**
     - Upload Card: Upload a business card image. The application extracts and 
       displays the data for review and correction. Save the data to the database by clicking "Upload to SQL."
     - View Cards: View a table of saved business cards.
     - Update Card: Select an entry to update and modify the fields as needed. Click "Update Card" to save changes.
     - Delete Card: Select an entry to delete and confirm the action.
 
--** #### __STEP 4:__ Database Management:**
+-**__STEP 4:__ Database Management:**
     - Each business card's data is stored in a MySQL table.
     - The app supports CRUD (Create, Read, Update, Delete) operations.
 
