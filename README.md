@@ -54,7 +54,7 @@ easyocr, pandas, streamlit, streamlit_option_menu, mysql.connector, Pillow, re, 
     - Update Card: Select an entry to update and modify the fields as needed. Click "Update Card" to save changes.
     - Delete Card: Select an entry to delete and confirm the action.
 
--**__STEP 4:__ Database Management:**
+- **__STEP 4:__ Database Management:**
     - Each business card's data is stored in a MySQL table.
     - The app supports CRUD (Create, Read, Update, Delete) operations.
 
