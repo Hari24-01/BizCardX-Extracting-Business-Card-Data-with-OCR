@@ -55,7 +55,10 @@ easyocr, pandas, streamlit, streamlit_option_menu, mysql.connector, Pillow, re, 
 
 <!-- OUTPUT -->
 ### OUTPUT:
-   
+   ![Screenshot (143)](https://github.com/user-attachments/assets/72b44683-ebf0-42c2-b26d-20bac6050091)
+
+  ![Screenshot (144)](https://github.com/user-attachments/assets/485e5638-f01f-4a4f-9232-2cea8488decb)
+
    
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
