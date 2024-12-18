@@ -19,7 +19,7 @@
 
 <!-- PROBLEM STATEMENT -->
 ### PROBLEM STATEMENT:
-The aim of this project is to create a Streamlit application with a visualisation dashboard that provides interactive and visually appealing insights on the Phonepe pulse Github repository.
+The aim of the project is to develop a Streamlit application that permits users to input business card photos, extract essential information with easyOCR, and display it in an interactive user interface.
 
 <!-- PLATFORMS USED -->
 ### PLATFORMS USED:
@@ -32,7 +32,7 @@ The aim of this project is to create a Streamlit application with a visualisatio
   
 <!-- LIBRARY USED -->
 ### LIBRARY USED:
-gitpython, pandas, plotly.express, streamlit, streamlit_option_menu, mysql.connector, sqlalchemy(create_engine), PIL, sklearn.
+easyocr, pandas, streamlit, streamlit_option_menu, mysql.connector, PIL, re, cv2, numpy.
 
 <!-- PROCEDURE -->
 ### PROCEDURE:
