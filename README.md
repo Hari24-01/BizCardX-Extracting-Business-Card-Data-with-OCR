@@ -37,11 +37,12 @@ easyocr, pandas, streamlit, streamlit_option_menu, mysql.connector, Pillow, re, 
 <!-- PROCEDURE -->
 ### PROCEDURE:
 * #### __STEP 1:__ Clone the repository from GitHub:
-git clone <repository_url>
-cd BizCardX
+  git clone <repository_url>
+  cd BizCardX
 
 * #### __STEP 2:__ Install the required Python packages:
-pip install streamlit easyocr mysql-connector-python pandas opencv-python pillow streamlit-option-menu
+  pip install streamlit easyocr mysql-connector-python pandas opencv-python pillow 
+  streamlit-option-menu
   
 * #### __STEP 3:__ Set up the MySQL database:
 Create a database named bizcardx_data.
