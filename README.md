@@ -37,6 +37,10 @@ easyocr, pandas, streamlit, streamlit_option_menu, mysql.connector, Pillow, re, 
 <!-- PROCEDURE -->
 ### PROCEDURE:
 
+- **Upload Business Card**
+  - Supports PNG, JPG, and JPEG formats.
+  - Extracts key details like name, email, phone number, and address.
+
 * #### __STEP 2:__ Install the required Python packages:
      pip install streamlit easyocr mysql-connector-python pandas opencv-python 
      pillow 
