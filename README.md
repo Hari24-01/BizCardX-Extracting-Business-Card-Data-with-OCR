@@ -36,20 +36,21 @@ easyocr, pandas, streamlit, streamlit_option_menu, mysql.connector, Pillow, re, 
 
 <!-- PROCEDURE -->
 ### PROCEDURE:
-* #### __STEP 1:__ Connecting To Github Repository For Data Extraction:
-   Cloning the Phonepe Pulse Github repository with [gitpython](https://github.com/gitpython-developers/GitPython), then retrieving the data and saving it in the proper format (JSON or CSV).
-* #### __STEP 2:__ Data Cleaning:
-  Using [Python](https://www.python.org/) and [Pandas](https://pandas.pydata.org/docs/getting_started/index.html) are used for data manipulation and pre-processing, 
-  which includes data cleansing, addressing missing values, and transforming data 
-  formats for analysis and visualisation.
-* #### __STEP 3:__ Data Insertion in MYSQL Server:
-  The [mysql-connector-python](https://github.com/mysql/mysql-connector-python) Python package is used to connect to a [MySQL](https://www.apachefriends.org/index.html) database and insert converted data in JSON or CSV format using SQL commands.
-* #### __STEP 4:__ Setting up a Streamlit app:
-  Utilising [Python](https://www.python.org/) libraries Using [Streamlit](https://docs.streamlit.io/) and [Plotly](https://plotly.com/python/), an interactive dashboard is developed with [geo-map](https://plotly.com/python/maps/) functionalities and a user-friendly 
-  interface with many drop-down options.
-* #### __STEP 5:__ Display data in the Streamlit app:
-  The obtained data is shown within the [Streamlit](https://docs.streamlit.io/) application, where it is used to build charts, graphs and Map for user analysis.
+* #### __STEP 1:__ Application Setup:
+   Create an intuitive UI in Streamlit with widgets such as file uploaders, buttons, and text boxes to guide users through uploading a business card image,Organize and present the         extracted data (company name, cardholder name, etc.) in the Streamlit GUI using tables or text boxes.
 
+* #### __STEP 2:__ Database Connection:
+  Create a table bizcardx (if not already present) to store extracted information, Use SQLite or MySQL to store the extracted information and uploaded business card images.
+  
+* #### __STEP 3:__ View Cards Page:
+  Users can view all saved business card data in a tabular format using Pandas DataFrame in Streamlit.
+  
+* #### __STEP 4:__ Update Card Page:
+  Editable fields are displayed, allowing users to make changes to the select a card from the list (identified by ID, holder name, and company name) to update its details.
+  
+* #### __STEP 5:__ Delete Card Page:
+  Upon confirmation, the selected record the Users can delete the card from the database.
+  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- OUTPUT -->
