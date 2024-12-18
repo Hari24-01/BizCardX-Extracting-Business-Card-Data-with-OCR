@@ -47,15 +47,15 @@ easyocr, pandas, streamlit, streamlit_option_menu, mysql.connector, Pillow, re, 
 *   Run the SQL commands in the app to create the required table structure.
 
 * #### __STEP 6:__ Navigate the Application:
-*   • Upload Card: Upload a business card image. The application extracts and 
-      displays the data for review and correction. Save the data to the database by clicking "Upload to SQL."
-*   • View Cards: View a table of saved business cards.
-*   • Update Card: Select an entry to update and modify the fields as needed. Click "Update Card" to save changes.
-*   • Delete Card: Select an entry to delete and confirm the action.
+*   Upload Card: Upload a business card image. The application extracts and 
+    displays the data for review and correction. Save the data to the database by clicking "Upload to SQL."
+*   View Cards: View a table of saved business cards.
+*   Update Card: Select an entry to update and modify the fields as needed. Click "Update Card" to save changes.
+*   Delete Card: Select an entry to delete and confirm the action.
 
 * #### __STEP 8:__ Database Management:
-*   • Each business card's data is stored in a MySQL table.
-*   • The app supports CRUD (Create, Read, Update, Delete) operations.
+*   Each business card's data is stored in a MySQL table.
+*   The app supports CRUD (Create, Read, Update, Delete) operations.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
